@@ -30,6 +30,7 @@ const Header = () => {
         {/* logo */}
         <Link to={'/'}>
           <div>
+            // logo show
             <img className='w-[40px]' src={logo} alt=''></img>
           </div>
         </Link>
