@@ -9,6 +9,7 @@ const ProductProvider = ({ children }) => {
   // fetch product
   useEffect(() => {
     const fetchProducts = async () => {
+      // resource file count in this
       const response = await fetch('https://fakestoreapi.com/products');
       const data = await response.json();
       setProducts(data);
