@@ -7,6 +7,7 @@ import ProductProvider from './contexts/ProductContext';
 // sidebar provider
 import SidebarProvider from './contexts/SidebarContext';
 // cart provider
+// not number add
 import CartProvider from './contexts/CartContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
